@@ -14,6 +14,8 @@ How to use:
 Issues：  
 1.Maybe need Matlab R2018b version or higher.  
 2.You may confront “Out of memory” , when detecting car plate in a video card that has 2GB of memory or less . If this problems occur , use cpu for detection.  
+3.The size of I must be larger than [224 224]. The minimum size is defined by the network's image
+input layer.  
   
 Results:  
 ![complex background](https://github.com/lijinwill/Car-Plate-Detection-using-FasterRCNN-in-Matlab/blob/master/images/1.jpg)
