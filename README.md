@@ -7,7 +7,7 @@ https://ww2.mathworks.cn/help/vision/ref/trainfasterrcnnobjectdetector.html?#bvk
 
 
 How to use:
-1.load plate_detector_googlenet_258imgs.mat into work space.
+1.load plate_detector_googlenet_258imgs.mat into work space./
 2.open plate_detection.m in matlab.
 3.change line 4  " img = imread('6.jpg'); ",change the image to what ever car plate image you like.
 4.click run,wait for around 30 seconds.
